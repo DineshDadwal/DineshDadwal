@@ -1,0 +1,57 @@
+h3{
+   color: white;
+}
+.express{
+   background-color:slategrey;
+   color: slateblue;
+   padding: 5px;
+   width: 60px;
+}
+img{
+   padding: 5px;
+   height: 30px;
+   width: 30px;
+}
+svg{
+   padding: 5px;
+   height: 30px;
+   width: 30px;
+}
+a{
+   text-align: center;
+}
+
+a:hover{
+   -webkit-transform: scale(1.1);
+   -ms-transform: scale(1.1);
+   transform: scale(1.1);
+ }
+ .container{
+    text-align: center;
+ }
+ img:hover{
+   -webkit-transform: scale(1.1);
+   -ms-transform: scale(1.1);
+   transform: scale(1.1);
+ }
+ .progress {
+   height: 3px;
+   width: 0%;
+   background-color: rgb(20, 255, 226);
+   position: fixed;
+   top: 0;
+   left: 0;
+   animation: progress 3s ;
+   
+ }
+ @keyframes progress {
+   to {
+     background-color: rgb(20, 255, 226);
+   width: 100%;
+   }
+}
+@media screen and (max-width: 533px) {
+   .email{
+     display: none;
+   }
+ }
