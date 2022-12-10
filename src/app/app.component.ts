@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import * as AOS from 'aos';
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -7,7 +8,9 @@ import * as AOS from 'aos';
 })
 export class AppComponent {
   title = 'DineshDadwal';
+  
   ngOnInit() {
     AOS.init();
+    
   }
 }

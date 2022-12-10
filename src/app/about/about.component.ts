@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {Clipboard} from '@angular/cdk/clipboard';
-
+import {MatSnackBar} from '@angular/material/snack-bar';
 @Component({
   selector: 'app-about',
   templateUrl: './about.component.html',
@@ -8,7 +8,7 @@ import {Clipboard} from '@angular/cdk/clipboard';
 })
 export class AboutComponent implements OnInit {
 
-  constructor(private clipboard: Clipboard) { }
+  constructor(private clipboard: Clipboard,private _snackBar: MatSnackBar) { }
 
   ngOnInit(): void {
   //  this.allProgress()
@@ -16,7 +16,7 @@ export class AboutComponent implements OnInit {
   }
   copyEmail(){
     this.clipboard.copy('dinesh.dadwal999@gmail.com');
-    alert('Email Copied!')
+    this._snackBar.open('Email Copied!', 'ok');
   }
 //  allProgress = function(){
 //    var barOne =  document.getElementById("progress-bar-1")

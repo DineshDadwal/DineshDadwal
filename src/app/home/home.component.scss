@@ -55,6 +55,7 @@ body{
 .profile:hover{
    width: 270px;
    height: 270px;
+   transition: 0.5s ease-in-out;
 }
 .profile:hover .social{
    transition: 0.5s;
@@ -94,7 +95,7 @@ i{
    color: blue; 
 }
 a{
-   color: black;
+   
    font-weight: bolder;
 }
 /* text starts */
@@ -182,4 +183,62 @@ p{
  .container{
    background-color: #1B1B27;
 
+ }
+ .card{
+    p{
+       font-size: x-small;
+    }
+ }
+//  tooltip
+
+@media screen and (max-width: 544px) {
+  .profile{
+     margin-top: 10px;
+  }
+  
+   .social{
+     opacity: 0.7;
+     margin-top: 10px;
+     a{
+        color: black;
+     }
+   }
+    .social{
+      transition: 0.5s;
+      box-shadow: 0 0 20px #39FF14;
+      opacity: 0.7;
+   }
+    .social:nth-child(1){
+      transform: rotate(-60deg) translateY(-110px);
+   }
+    .social:nth-child(2){
+      transition-delay: 0.1s;
+      transform: rotate(-30deg) translateY(-110px);
+      opacity: 0.7;
+   }
+    .social:nth-child(3){
+      transition-delay: 0.1s;
+      transform: rotate(0deg) translateY(-110px);
+      opacity: 0.7;
+   }
+    .social:nth-child(4){
+      transition-delay: 0.1s;
+      transform: rotate(30deg) translateY(-110px);
+      opacity: 0.7;
+     
+   }
+    .social:nth-child(5){
+      transition-delay: 0.1s;
+      transform: rotate(60deg) translateY(-110px);
+      opacity: 0.7;
+   }
+   app-header{
+      margin-bottom: 10px;
+   }
+ }
+
+ .col-lg-4{
+    a{
+       color: white;
+    }
  }

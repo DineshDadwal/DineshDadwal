@@ -32,5 +32,14 @@ html, body { height: 100%; }
 body { 
    font-family: Roboto, "Helvetica Neue", sans-serif;
    background-color:#1B1B27 ;
-   animation: body 1s linear
+   animation: body 1s linear;
+   overflow-x: hidden;
+   margin: 0;
+   padding: 0;
  }
+html{
+  background-color:#1B1B27 ;
+
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

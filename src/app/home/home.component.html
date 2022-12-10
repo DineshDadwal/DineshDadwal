@@ -1,11 +1,16 @@
 <nav class="container-fluid  text-white " data-aos="zoom-in-up">
    <a class="nav-link text-white" routerLink="/">Work</a>
    <a class="nav-link disable text-white" routerLink="/about">About</a>
+   <!-- <a class="nav-link disable text-white" routerLink="/Contact">Contact</a>
+    -->
 
 </nav>
 
 <!-- Special Profile -->
-<div class="container profile" data-aos="zoom-in-up">
+
+<div class="container profile" data-aos="zoom-in-up" id="popcorn" aria-describedby="tooltip"  matTooltip="Hover to check Social Media"
+[matTooltipHideDelay]="5000">
+ 
    <div class="social">
       <a href="https://www.facebook.com/dinesh.dadwal.77"><i class="fab fa-facebook" aria-hidden="true"></i></a>
    </div>
@@ -21,7 +26,7 @@
    <div class="social">
       <a href="https://www.linkedin.com/in/dinesh-dadwal-083211145/"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
    </div>
-   <img src="../assets/dp.jpg" alt="profile picture" class="dp">
+   <img src="../assets/DP1.png" alt="profile picture" class="dp" >
  </div>
  
  <div class="container" style="opacity: 1;">
@@ -33,87 +38,233 @@
    </div>
  </div>
  <hr>
+
+ <!-- other info -->
+ 
+<div  class="container " style="text-align: center; margin-top: auto;">
+  <div class="row">
+    <div class="col-lg-4">
+      <a href="https://calendar.google.com/calendar/r/week/2000/4/3?pli=1"><svg class="bi bi-person-circle" width="50px" height="50px" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" >
+          <path d="M13.468 12.37C12.758 11.226 11.195 10 8 10s-4.757 1.225-5.468 2.37A6.987 6.987 0 0 0 8 15a6.987 6.987 0 0 0 5.468-2.63z"/>
+          <path fill-rule="evenodd" d="M8 9a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+           <path fill-rule="evenodd" d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1zM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8z"/>
+       </svg></a>
+       <h2 style="text-align: center; margin-bottom: 20px;">DOB-03/04/2000</h2>
+    </div>
+    <div class="col-lg-4" style="align-content: center;">
+      <a href="tel:9873273237" ><svg class="bi bi-phone" width="50px" height="50px" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" d="M11 1H5a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>
+        <path fill-rule="evenodd" d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+      </svg></a>
+      <h2 style="text-align: center;">+919873273237</h2> 
+    </div>
+    <div class="col-lg-4">
+      <a href="https://www.google.com/maps?sxsrf=ALeKk03Z0chmJgnSTZBdWTPbLWwqXlbP7Q:1591616474860&q=delhi&gs_lcp=CgZwc3ktYWIQAzIHCAAQFBCHAjIFCAAQsQMyBQgAELEDMgIIADIFCAAQsQMyBQgAEIMBMgUIABCDATIFCAAQsQMyBQgAEIMBMgUIABCxAzoECCMQJzoHCCMQ6gIQJzoFCAAQkQJQieEEWIfnBGDH7ARoAXAAeACAAbkBiAHCBpIBAzAuNpgBAKABAaoBB2d3cy13aXqwAQo&uact=5&um=1&ie=UTF-8&sa=X&ved=2ahUKEwi-mPTkkfLpAhX0_XMBHWF6DQMQ_AUoAXoECCYQAw"><svg class="bi bi-geo-alt" width="50px" height="50px" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+      </svg></a>
+      <h2 style="text-align: center;">New Delhi, India</h2>
+    </div>
+</div>
+
+</div>
+
+
+
+<div class="container">
+  <div class="row" style="text-align: center;">
+      <div class="col-lg-4">
+        <a href="http://www.cbse.nic.in/"><svg class="bi bi-book-half" width="50px" height="50px" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" d="M12.786 1.072C11.188.752 9.084.71 7.646 2.146A.5.5 0 0 0 7.5 2.5v11a.5.5 0 0 0 .854.354c.843-.844 2.115-1.059 3.47-.92 1.344.14 2.66.617 3.452 1.013A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.276-.447L15.5 2.5l.224-.447-.002-.001-.004-.002-.013-.006-.047-.023a12.582 12.582 0 0 0-.799-.34 12.96 12.96 0 0 0-2.073-.609zM15 2.82v9.908c-.846-.343-1.944-.672-3.074-.788-1.143-.118-2.387-.023-3.426.56V2.718c1.063-.929 2.631-.956 4.09-.664A11.956 11.956 0 0 1 15 2.82z"/>
+          <path fill-rule="evenodd" d="M3.214 1.072C4.813.752 6.916.71 8.354 2.146A.5.5 0 0 1 8.5 2.5v11a.5.5 0 0 1-.854.354c-.843-.844-2.115-1.059-3.47-.92-1.344.14-2.66.617-3.452 1.013A.5.5 0 0 1 0 13.5v-11a.5.5 0 0 1 .276-.447L.5 2.5l-.224-.447.002-.001.004-.002.013-.006a5.017 5.017 0 0 1 .22-.103 12.958 12.958 0 0 1 2.7-.869z"/>
+        </svg></a>
+        <h2 style="text-align: center; margin-bottom: 10px;">CBSE 2018</h2>
+      </div>
+        <div class="col-lg-4">
+          <a href="http://www.ipu.ac.in/"><svg class="bi bi-book-half" width="50px" height="50px" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M12.786 1.072C11.188.752 9.084.71 7.646 2.146A.5.5 0 0 0 7.5 2.5v11a.5.5 0 0 0 .854.354c.843-.844 2.115-1.059 3.47-.92 1.344.14 2.66.617 3.452 1.013A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.276-.447L15.5 2.5l.224-.447-.002-.001-.004-.002-.013-.006-.047-.023a12.582 12.582 0 0 0-.799-.34 12.96 12.96 0 0 0-2.073-.609zM15 2.82v9.908c-.846-.343-1.944-.672-3.074-.788-1.143-.118-2.387-.023-3.426.56V2.718c1.063-.929 2.631-.956 4.09-.664A11.956 11.956 0 0 1 15 2.82z"/>
+            <path fill-rule="evenodd" d="M3.214 1.072C4.813.752 6.916.71 8.354 2.146A.5.5 0 0 1 8.5 2.5v11a.5.5 0 0 1-.854.354c-.843-.844-2.115-1.059-3.47-.92-1.344.14-2.66.617-3.452 1.013A.5.5 0 0 1 0 13.5v-11a.5.5 0 0 1 .276-.447L.5 2.5l-.224-.447.002-.001.004-.002.013-.006a5.017 5.017 0 0 1 .22-.103 12.958 12.958 0 0 1 2.7-.869z"/>
+          </svg></a>
+          <h2 style="text-align: center;">GGSIPU 2018-21</h2>
+        </div>
+        <div class="col-lg-4">
+          <a href="" (click)="copyEmail()"><svg class="bi bi-book-half" width="50px" height="50px" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
+          </svg></a>
+          <h2 style="text-align: center;">dinesh.dadwal999@gmail.com</h2>
+        </div>
+  </div>
+</div>
+ <!-- end -->
 <div class="container project">
    <h1>Projects 💻</h1>
    <div class="media" data-aos="fade-down-left">
-      <img src="../assets/folder.jpg" class="align-self-center mr-3" alt="..." width="120px" height="80px">
+      <img src="../assets/logo.png" class="align-self-center mr-3" alt="..." width="120px" height="80px">
       <div class="media-body">
-        <h2 class="mt-0">Project -1</h2>
-        <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus. <a href="">Read More .. </a></p>
+        <h2 class="mt-0"><a href="https://betablogs-308214.web.app/" style="color: white;"> Beta Blogs</a></h2>
+        <p>Blogging Website build for my major project. Built using Angular, Nodejs and MongoDB.</p>
       </div>
     </div>
-    <div class="media" data-aos="fade-down-right">
+    <div class="media" data-aos="fade-down-left">
+      <img src="../assets/lg2.png" class="align-self-center mr-3" alt="..." width="120px" height="80px">
+      <div class="media-body">
+        <h2 class="mt-0"><a href="https://omtaxsolution-683f9.web.app/" style="color: white;"> Omtaxsolutions.com</a></h2>
+        <p>Chartered Accountant Website specially build for a client's organisation names as OM TAX SOLUTIONS. Built Using Angular MongoDB and NodeJs </p>
+      </div>
+    </div>
+<!-- color popper project -->
+    <div class="media" data-aos="fade-down-left">
+      <img src="../assets/ezgif.com-gif-maker.gif" class="align-self-center mr-3" alt="..." width="120px" height="80px">
+      <div class="media-body">
+        <h2 class="mt-0"><a href="https://dineshdadwal.github.io/color-flipper.io/index.html" style="color: white;"> Color Flipper</a></h2>
+        <p>This webiste generates color codes in both simple and hex codes for CSS. Built using Vanilla Javascript </p>
+      </div>
+    </div>
+    
+    <!-- counter project -->
+    <div class="media" data-aos="fade-down-left">
+      <img src="../assets/counter.gif" class="align-self-center mr-3" alt="..." width="120px" height="80px">
+      <div class="media-body">
+        <h2 class="mt-0"><a href="https://dineshdadwal.github.io/counter.io/" style="color: white;"> Counter</a></h2>
+        <p>Quantity input counter built with vanilla javascript </p>
+      </div>
+    </div>
+
+    <!-- review project -->
+    <div class="media" data-aos="fade-down-left">
+      <img src="../assets/review.gif" class="align-self-center mr-3" alt="..." width="120px" height="80px">
+      <div class="media-body">
+        <h2 class="mt-0"><a href="https://dineshdadwal.github.io/reviews.io/" style="color: white;">Review</a></h2>
+        <p>Review slider made with vanilla javascript which generates previous, next and random reviews  </p>
+      </div>
+    </div>
+
+    <!-- navbar project -->
+    <div class="media" data-aos="fade-down-left">
+      <img src="../assets/navbar.gif" class="align-self-center mr-3" alt="..." width="120px" height="80px">
+      <div class="media-body">
+        <h2 class="mt-0"><a href="https://dineshdadwal.github.io/responsive-navbar.io/" style="color: white;">Responsive Navbar</a></h2>
+        <p>Responsive Navbar made with vanilla javascript </p>
+      </div>
+    </div>
+
+    <!-- sidebar project -->
+    <div class="media" data-aos="fade-down-left">
+      <img src="../assets/sidebar.gif" class="align-self-center mr-3" alt="..." width="120px" height="80px">
+      <div class="media-body">
+        <h2 class="mt-0"><a href="https://dineshdadwal.github.io/responsive-sidebar.io/" style="color: white;">Responsive Sidebar</a></h2>
+        <p>Responsive Sidebar made with vanilla javascript </p>
+      </div>
+    </div>
+    <!-- Expansion Panel project -->
+    <div class="media" data-aos="fade-down-left">
+      <img src="../assets/expansion-panel.gif" class="align-self-center mr-3" alt="..." width="120px" height="80px">
+      <div class="media-body">
+        <h2 class="mt-0"><a href="https://dineshdadwal.github.io/Expansion-Panel.io/" style="color: white;">Expansion Panel</a></h2>
+        <p>Responsive Expansion Panel made with vanilla javascript </p>
+      </div>
+    </div>
+
+    <!-- <div class="media" data-aos="fade-down-right">
       <img src="../assets/folder.jpg" class="align-self-center mr-3" alt="..." width="120px" height="80px">
       <div class="media-body">
         <h2 class="mt-0">Project -1</h2>
         <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus. <a href="">Read More....</a></p>
       </div>
-    </div>
-    <div class="media" data-aos="fade-down-left">
-      <img src="../assets/folder.jpg" class="align-self-center mr-3" alt="..." width="120px" height="80px">
-      <div class="media-body">
-        <h2 class="mt-0">Project -1</h2>
-        <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus. <a href="">Read More .. </a></p>
-      </div>
-    </div>
+    </div> -->
     <div class="card" data-aos="fade-down-left" style="width: 200px;">
-      <img src="../assets/folder.jpg" class="card-img-top" alt="...">
+      <a href="https://betablogs-308214.web.app/"><img src="../assets/logo.png" class="card-img-top" alt="..."></a>
       <div class="card-body">
-        <h5 class="card-title">Project 1</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <h5 class="card-title"><a href="https://betablogs-308214.web.app/" style="color: white; font-family:'Montserrat', sans-serif;">Beta Blogs</a></h5>
+        <p class="card-text">Blogging Website build for my major project. Built using Angular, Nodejs and MongoDB. </p>
      
       </div>
     </div>
-    <div class="card" data-aos="fade-down-right" style="width: 200px;">
-      <img src="../assets/folder.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Project 2</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        
-      </div>
-    </div>
+
     <div class="card" data-aos="fade-down-left" style="width: 200px;">
-      <img src="../assets/folder.jpg" class="card-img-top" alt="...">
+      <a href="https://omtaxsolution-683f9.web.app/"><img src="../assets/lg2.png" class="card-img-top" alt="..."></a>
       <div class="card-body">
-        <h5 class="card-title">Project 3</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        
+        <h5 class="card-title"><a href="https://omtaxsolution-683f9.web.app/" style="color: white; font-family:'Montserrat', sans-serif;">omtaxsolutions.in</a></h5>
+        <p class="card-text">Chartered Accountant Website specially build for a client's organisation names as OM TAX SOLUTIONS. Built Using Angular MongoDB and NodeJs </p>
+     
       </div>
     </div>
+<!-- color popper proect -->
+    <div class="card" data-aos="fade-down-left" style="width: 200px;">
+      <a href="https://dineshdadwal.github.io/color-flipper.io/index.html" class="card-img-top" alt="..."><img src="../assets/ezgif.com-gif-maker.gif" class="card-img-top" alt="..."></a>
+      <div class="card-body">
+        <h5 class="card-title"><a href="https://dineshdadwal.github.io/color-flipper.io/index.html" style="color: white; font-family:'Montserrat', sans-serif;">Color Flipper</a></h5>
+        <p class="card-text">This webiste generates color codes in both simple and hex codes for CSS. Built using Vanilla Javascript</p>
+     
+      </div>
+    </div>
+<!-- counter project -->
+    <div class="card" data-aos="fade-down-left" style="width: 200px;">
+      <a href="https://dineshdadwal.github.io/counter.io/"><img src="../assets/counter.gif" class="card-img-top" alt="..."></a>
+      <div class="card-body">
+        <h5 class="card-title"><a href="https://dineshdadwal.github.io/counter.io/" style="color: white; font-family:'Montserrat', sans-serif;">Counter</a></h5>
+        <p class="card-text">Quantity input counter built with vanilla javascript</p>
+     
+      </div>
+    </div>
+<!-- review project -->
+    <div class="card" data-aos="fade-down-left" style="width: 200px;">
+      <a href="https://dineshdadwal.github.io/reviews.io/"><img src="../assets/review.gif" class="card-img-top" alt="..."></a>
+      <div class="card-body">
+        <h5 class="card-title"><a href="https://dineshdadwal.github.io/reviews.io/"style="color: white; font-family:'Montserrat', sans-serif;">Review</a></h5>
+        <p class="card-text">Review slider made with vanilla javascript which generates previous, next and random reviews</p>
+     
+      </div>
+    </div>
+    <!-- navbar project -->
+    <div class="card" data-aos="fade-down-left" style="width: 200px;">
+      <a href="https://dineshdadwal.github.io/responsive-navbar.io/"><img src="../assets/navbar.gif" class="card-img-top" alt="..."></a>
+      <div class="card-body">
+        <h5 class="card-title"><a href="https://dineshdadwal.github.io/responsive-navbar.io/"style="color: white; font-family:'Montserrat', sans-serif;">Responsive Navbar</a></h5>
+        <p class="card-text">Responsive Navbar made with vanilla javascript </p>
+     
+      </div>
+    </div>
+    <!-- sidebar project -->
+    <div class="card" data-aos="fade-down-left" style="width: 200px;">
+      <a href="https://dineshdadwal.github.io/responsive-sidebar.io/"><img src="../assets/sidebar.gif" class="card-img-top" alt="..."></a>
+      <div class="card-body">
+        <h5 class="card-title"><a href="https://dineshdadwal.github.io/responsive-sidebar.io/"style="color: white; font-family:'Montserrat', sans-serif;">Responsive Sidebar</a></h5>
+        <p class="card-text">Responsive Sidebar made with vanilla javascript </p>
+     
+      </div>
+    </div>
+
+    <!-- Expansion Panel project -->
+    <div class="card" data-aos="fade-down-left" style="width: 200px;">
+      <a href="https://dineshdadwal.github.io/Expansion-Panel.io/"><img src="../assets/expansion-panel.gif" class="card-img-top" alt="..."></a>
+      <div class="card-body">
+        <h5 class="card-title"><a href="https://dineshdadwal.github.io/Expansion-Panel.io/"style="color: white; font-family:'Montserrat', sans-serif;">Expansion Panel</a></h5>
+        <p class="card-text">Responsive Expansion Panel made with vanilla javascript </p>
+     
+      </div>
+    </div>
+    
+
+    <!-- games -->
+    <div class="container project">
+      <h1>Games 🎮 </h1>
+      <div class="media" data-aos="fade-down-left">
+         <img src="../assets/tic-tac-toe.png" class="align-self-center mr-3" alt="..." width="120px" height="80px">
+         <div class="media-body">
+           <h2 class="mt-0"><a href="https://dineshdadwal.github.io/tictactoe.github.io/" style="color: white;"> Tic-Tac-Toe</a></h2>
+           <p>Tic Tac Toe game built in vanilla Javascript</p>
+         </div>
+       </div>
+       <div class="card" data-aos="fade-down-left" style="width: 200px;">
+        <a href="https://dineshdadwal.github.io/tictactoe.github.io/"><img src="../assets/tic-tac-toe.png" class="card-img-top" alt="..."></a>
+        <div class="card-body">
+          <h5 class="card-title"><a href="https://dineshdadwal.github.io/tictactoe.github.io/" style="color: white; font-family:'Montserrat', sans-serif;">Tic-Tac-Toe</a></h5>
+          <p class="card-text">Tic Tac Toe game built in vanilla Javascript </p>
+       
+        </div>
+      </div>
 </div>
 <hr>
-<div class="container">
-   <h1>Games 🎮</h1>
-   <div class="media" data-aos="fade-down-right">
-      <img src="../assets/folder.jpg" class="align-self-center mr-3" alt="..." width="120px" height="80px">
-      <div class="media-body">
-        <h2 class="mt-0">Project -1</h2>
-        <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus. <a href="">Read More .. </a></p>
-      </div>
-    </div>
-    <div class="media" data-aos="fade-down-left">
-      <img src="../assets/folder.jpg" class="align-self-center mr-3" alt="..." width="120px" height="80px">
-      <div class="media-body">
-        <h2 class="mt-0">Project -1</h2>
-        <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus. <a href="">Read More .. </a></p>
-      </div>
-    </div>
-    <div class="card" data-aos="fade-down-right" style="width: 200px;">
-      <img src="../assets/folder.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Game 1</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        
-      </div>
-    </div>
-    <div class="card" data-aos="fade-down-left" style="width: 200px;">
-      <img src="../assets/folder.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Game 2</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        
-      </div>
-    </div>
-</div>
+
  <app-header></app-header>
  
